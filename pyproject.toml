@@ -1,0 +1,17 @@
+[project]
+name = "salaries-prediction"
+version = "0.1.0"
+description = "Hands-on MLOps Git and GitHub practical"
+readme = "README.md"
+authors = [
+    { name = "rojo4707", email = "r.monicard@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+salaries-prediction = "salaries_prediction:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
